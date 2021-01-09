@@ -25,7 +25,7 @@ namespace SportsStore
             //подключение к БД идентификации
             services.AddDbContext<AppIdentityDbContext>(options =>
                 options.UseSqlServer(
-                    Configuration["Data:SportsStoreIdentity:ConnectionString"]));
+                    Configuration["Data:SportStoreIdentity:ConnectionString"]));
 
             //подключение службы идентификации
             services.AddIdentity<IdentityUser, IdentityRole>()
