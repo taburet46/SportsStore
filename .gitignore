@@ -1,0 +1,17 @@
+bin/
+obj/
+/packages/
+riderModule.iml
+/_ReSharper.Caches/
+Views/*
+Controllers/*
+Properties/*
+Infrastructure/*
+Migrations/*
+libman.json
+.idea/*
+.vs/*
+Components/*
+SportsStore.csproj.user
+node_modules/*
+wwwroot/*
